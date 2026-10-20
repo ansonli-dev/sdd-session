@@ -1,0 +1,24 @@
+{
+  "name": "sdd-session-slidev",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md",
+    "test": "node --test tests/*.test.mjs",
+    "visual:dev": "slidev visual-catalog.md",
+    "visual:build": "slidev build visual-catalog.md --out dist-visual"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.0",
+    "@slidev/theme-default": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.2.25",
+    "@iconify-json/logos": "^1.2.13",
+    "@iconify-json/simple-icons": "^1.2.93"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-visual
+.slidev
+.playwright-cli
+output/playwright/
+*.pdf
+*.pptx
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
